@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">AdivinacionCartas</string>
+    <string name="introduce_name">Introduce tu nombre</string>
+    <string name="start">Empezar</string>
+    <string name="plus">Más alto</string>
+    <string name="welcome">Bienvenido %s</string>
+    <string name="draw">Empate</string>
+    <string name="returnStart">Volver a pantalla inicio</string>
+    <string name="youWin">Enhorabuena, es correcto. Tu puntuación es %d</string>
+    <string name="youLose">Que pena. Tu puntuación ahora es de %d puntos</string>
+    <string name="reboot">Reiniciar</string>
+</resources>
