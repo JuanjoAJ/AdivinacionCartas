@@ -157,7 +157,7 @@ class GameActivity : AppCompatActivity(), OnClickListener {
     }
 
     private fun upDownGame(upOrDown: String) {
-        val numFuture = Random.nextInt(0, 14)
+        val numFuture = Random.nextInt(0, 13)
         if (numFuture == numCurrent) {
             snackbar("draw")
         } else {
