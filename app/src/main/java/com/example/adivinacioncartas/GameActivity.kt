@@ -23,7 +23,6 @@ class GameActivity : AppCompatActivity(), OnClickListener {
     private var numFuture = 0
 
     private val cards = arrayListOf(
-        R.drawable.c1,
         R.drawable.c2,
         R.drawable.c3,
         R.drawable.c4,
@@ -35,10 +34,11 @@ class GameActivity : AppCompatActivity(), OnClickListener {
         R.drawable.c10,
         R.drawable.c11,
         R.drawable.c12,
-        R.drawable.c13
+        R.drawable.c13,
+        R.drawable.c1
     )
     private val cardsLand = arrayListOf(
-        R.drawable.c1_land,
+
         R.drawable.c2_land,
         R.drawable.c3_land,
         R.drawable.c4_land,
@@ -50,7 +50,8 @@ class GameActivity : AppCompatActivity(), OnClickListener {
         R.drawable.c10_land,
         R.drawable.c11_land,
         R.drawable.c12_land,
-        R.drawable.c13_land
+        R.drawable.c13_land,
+        R.drawable.c1_land
     )
 
     override fun onCreate(savedInstanceState: Bundle?) {
